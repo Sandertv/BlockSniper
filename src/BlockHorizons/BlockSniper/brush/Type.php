@@ -192,7 +192,7 @@ abstract class Type{
 			return $block->getSide($side);
 		}
 
-		return $this->chunkManager->getSide($block->x, $block->y, $block->z, $side);
+		return $this->chunkManager->getBlock($block)->getSide($side);
 	}
 
 	/**
