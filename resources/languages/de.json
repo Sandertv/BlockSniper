@@ -1,0 +1,223 @@
+{
+	"commands": {
+		"common": {
+			"warning-prefix": "[Warung] ",
+			"invalid-sender": "Du kannst diesen Befehl nur als Spieler ausführen!",
+			"no-permission": "Du hast keine Berechtigung um diesen Befehl auszuführen!"
+		},
+		"brush": {
+			"description": "Öffnet das BlockSniper Menü."
+		},
+		"blocksniper": {
+			"description": "Zeigt Informationen über BlockSniper oder läd das Plugin neu.",
+			"info": "Infos:",
+			"version": "Version: ",
+			"organisation": "Organisation: ",
+			"authors": "Autoren: ",
+			"target-api": "Ziel-API: ",
+			"reload": "Lade BlockSniper neu..."
+		},
+		"redo": {
+			"description": "Stellt die letzte rückgängig gemachte BlockSniper-Änderung wieder her.",
+			"no-redo": "Keine Änderungen zum wiederherstellen!",
+			"success": "Deine letzte rückgängig gemachte BlockSniper-Änderung wurde wiederhergestellt!"
+		},
+		"undo": {
+			"description": "Macht die letzte BlockSniper-Änderung rückgängig.",
+			"no-undo": "Keine Änderungen zum rückgängig machen!",
+			"success": "Deine Letzte BlockSniper-Änderung wurde rückgängig gemacht!"
+		},
+		"clone": {
+			"description": "Klont einen Bereich im angegebenen Format.",
+			"copy": {
+				"success": "Der betrachtete Ort wurde erfolgreich kopiert."
+			},
+			"template": {
+				"missing-name": "Es wurde kein aktzepierbarer Name für diese Vorlage angegeben!",
+				"success": "Die Vorlagendatei wurde erfolgreich gespeichert in %s!"
+			},
+			"schematic": {
+				"missing-name": "Für diese Schematic wurde kein gültiger Name angegeben!",
+				"success": "Die Schematic wurde erfolgreich gespeichert in %s!"
+			}
+		},
+		"paste": {
+			"description": "Fügt einen zuvor geklonten Bereich in die Welt ein.",
+			"copy": {
+				"no-copies": "Keine Kopie zum einfügen wurde gefunden!",
+				"success": "Deine Kopie wurde erfolgreich am betrachteten Ort eingefügt."
+			},
+			"template": {
+				"nonexistent": "Die Vorlage %s konnte im Vorlagenverzeichnis nicht gefunden werden.",
+				"success": "Die Vorlage %s wurde erfolgreich an der betrachteten Stelle eingefügt."
+			},
+			"schematic": {
+				"nonexistent": "Die Schematic %s konnte im Schematicverzeichnis nicht gefunden werden.",
+				"success": "Die Schematic %s wurde erfolgreich an der betrachteten Stelle eingefügt."
+			}
+		}
+	},
+	"ui": {
+		"preset-menu": {
+			"title": "Preset Menü",
+			"subtitle": "Klicken Sie auf eine Schaltfläche, um fortzufahren!",
+			"create": "Erstellen",
+			"delete": "Löschen",
+			"select": "Auswählen",
+			"list": "Liste",
+			"exit": "Beenden"
+		},
+		"preset-edit": {
+			"title": "Preset Bearbeitungsmenü",
+			"name": "Preset Name:",
+			"size": "Brush Größe:",
+			"shape": "Brush Form:",
+			"type": "Brush Typ:",
+			"hollow": "Hohler Brush:",
+			"decrement": "Dekrementierender Brush:",
+			"height": "Brush Höhe:",
+			"perfect": "Brush Form Perfektion:",
+			"blocks": "Brush Blöcke:",
+			"obsolete": "Obsolet Blöcke:",
+			"biome": "Brush Biome:",
+			"tree": "Brush Baum:"
+		},
+		"preset-selection": {
+			"title": "Preset Auswahl Menü",
+			"subtitle": "Klicken Sie auf eine Schaltfläche, um einen Preset anzuwenden!"
+		},
+		"preset-deletion": {
+			"title": "Preset Lösch Menü",
+			"subtitle": "Klicken Sie auf eine Schaltfläche, um einen Preset zu löschen!"
+		},
+		"preset-list": {
+			"title": "Preset Liste",
+			"subtitle": "Klicken Sie auf eine Schaltfläche, um einen Preset zu bearbeiten/anzuzeigen!"
+		},
+		"preset-creation": {
+			"title": "Preset Erstellen Menü",
+			"name": "Preset Name:",
+			"size": "Brush Größe:",
+			"shape": "Brush Form:",
+			"type": "Brush Typ:",
+			"hollow": "Hohler Brush:",
+			"decrement": "Dekrementierender Brush:",
+			"height": "Brush Höhe:",
+			"perfect": "Brush Form Perfektion:",
+			"blocks": "Brush Blöcke:",
+			"obsolete": "Obsolet Blöcke:",
+			"biome": "Brush Biome:",
+			"tree": "Brush Baum:"
+		},
+		"main-menu": {
+			"title": "BlockSniper Menü",
+			"subtitle": "Klicken Sie auf eine Schaltfläche, um fortzufahren!",
+			"brush": "Brush:",
+			"tree": "Baum:",
+			"config": "Einstellungen:",
+			"presets": "Presets:",
+			"global-brush": "Globaler Brush:",
+			"exit": "Beenden"
+		},
+		"brush-menu": {
+			"title": "Brush Menü:",
+			"size": "Brush Größe:",
+			"shape": "Brush Form:",
+			"type": "Brush Typ:",
+			"mode": {
+				"description": "Brush Modus",
+				"brush": "Brush",
+				"selection": "Auswahl"
+			},
+			"hollow": "Hohler Brush:",
+			"decrement": "Dekrementierender Brush:",
+			"height": "Brush Höhe:",
+			"perfect": "Brush Form Perfektion:",
+			"blocks": "Brush Blöcke:",
+			"obsolete": "Obsolet Blöcke:",
+			"biome": "Brush Biome:",
+			"tree": "Brush Baum:"
+		},
+		"configuration-menu": {
+			"title": "BlockSniper Einstellungen",
+			"auto-update": "Aktualisieren Sie die Einstellungsdatei automatisch, wenn eine neue Version gefunden wird:",
+			"language": "Die Sprache, die zum Senden von BlockSniper-bezogenen Nachrichten verwendet wird:",
+			"brush-item": "Die Item ID von dem Item das in diesem Brush verwendet wird:",
+			"selection-item": "Item ID of the item that is used to select",
+			"max-brush-size": "The absolute maximum size of brush",
+			"min-async-size": "Begrenzung der asynchronen Brushgröße. Wenn die Brushgröße größer ist, werden Operationen asynchron(langsamer) ausgeführt:",
+			"max-reverts": "Maximale Anzahl an Rückgängig-/Wiederherstellen-Aktionen, die gespeichert werden können. Ältere werden automatisch gelöscht!",
+			"reset-decrement-brush": "Dekrementierender Brush automatisch auf die anfängliche Startgröße zurücksetzen:",
+			"save-brush": "Brusheigenschaften von Spielern beim Serverneustart speichern",
+			"drop-plants": "Die Items die vom Laubbläser Typ zerstört/weggeblasen wurden droppen?",
+			"session-timeout-time": "Die Zeit in Minuten, nach der die Sitzung eines Spielers nach Verlassen des Servers entfernt wird:",
+			"auto-gui": "Öffne das Brush Menü automatisch, wenn du den Hotbar-Slot zu einem mit dem Brushelement wechselst.",
+			"myplot-support": "MyPlot Support:",
+			"auto-reload": "Durch Einschalten dieses Schalters wird die Einstellungsdatei beim Schließen dieses Fensters automatisch neu geladen."
+		},
+		"tree-menu": {
+			"title": "Baum Menü",
+			"trunk-height": "Die Höhe des Baumstammes",
+			"trunk-width": "Die Breite des Baumes unten; Die Breite nimmt nach oben allmählich ab:",
+			"max-branch-length": "Die maximale Länge, die einer der Äste des Baumes erreichen kann:",
+			"trunk-blocks": "Die Blöcke für den Baumstamm:",
+			"leaves-blocks": "Die Blöcke für die Blätter des Baumes:",
+			"leaves-cluster-size": "Die Größe der Blattcluster am Ende jedes Zweiges:"
+		}
+	},
+	"log": {
+		"language": {
+			"auto-selected": "[BlockSniper] Es wurde keine gültige Sprache ausgewählt. Englisch wurde automatisch ausgewählt.",
+			"usage": "Bitte wähle eine Sprache aus, indem du im Spiel zum Einstellungs-Menü gehst, indem du /b verwendest.",
+			"selected": "[BlockSniper] Sprache ausgewählt: "
+		},
+		"brush": {
+			"restored": "Brush von Spieler %s wurde wiederhergestellt.",
+			"all-restored": "Alle Brushes wurden wiederhergestellt."
+		},
+		"presets": {
+			"loaded": "Preset %s wurde geladen.",
+			"all-loaded": "Alle Presets wurden geladen."
+		},
+		"reload": {
+			"start": "[BlockSniper] Neuladen...",
+			"finish": "[BlockSniper] Laden abgeschlossen."
+		}
+	},
+	"brush": {
+		"selection": {
+			"first": "Position 1 gesetzt auf:",
+			"second": "Position 2 gesetzt auf:",
+			"error": "Lege eine Auswahl mit dem Auswahlelement fest, bevor du diese Aktion ausführst."
+		},
+		"shape": {
+			"cube": "Würfel",
+			"cuboid": "Quader",
+			"sphere": "Kugel",
+			"cylinder": "Zylinder"
+		},
+		"type": {
+			"biome": "Biome",
+			"cleanentities": "Lösche alle Entities",
+			"clean": "Löschen",
+			"drain": "Ablassen",
+			"expand": "Erweitern",
+			"fill": "Füllen",
+			"flattenall": "Ebnen alles",
+			"flatten": "Ebnen",
+			"layer": "Layer",
+			"leafblower": "Laubbläser",
+			"melt": "Schmelzen",
+			"overlay": "Overlay",
+			"replaceall": "Alles ersetzen",
+			"replace": "Ersetzten",
+			"snowcone": "Schneekegel",
+			"toplayer": "Oberste Layer",
+			"tree": "Baum",
+			"regenerate": "Regenerieren",
+			"freeze": "Einfrieren",
+			"warm": "Warm",
+			"heat": "Aufheitzen"
+		}
+	}
+}
